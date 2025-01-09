@@ -47,12 +47,12 @@ int main() {
     vector<int> x = {1, 2, 3};
     int base = 10;
 
-    cout << "Èñõîäíîå ÷èñëî: ";
+     cout << "Ğ˜ÑÑ…Ğ¾Ğ´Ğ½Ğ¾Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾: ";
     printNumber(x);
 
     vector<int> result = fastSquare(x, base);
 
-    cout << "Ğåçóëüòàò âîçâåäåíèÿ â êâàäğàò: ";
+    cout << "Ğ ĞµĞ·ÑƒĞ»ÑŒÑ‚Ğ°Ñ‚ Ğ²Ğ¾Ğ·Ğ²ĞµĞ´ĞµĞ½Ğ¸Ñ Ğ² ĞºĞ²Ğ°Ğ´Ñ€Ğ°Ñ‚:  ";
     printNumber(result);
 
     return 0;
